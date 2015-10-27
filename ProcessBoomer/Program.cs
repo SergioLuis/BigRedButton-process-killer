@@ -17,6 +17,8 @@ namespace ProcessBoomer
                     TryKillProcess();
                 };
 
+                redButton.Start();
+
                 Console.ReadLine();
             }
         }
